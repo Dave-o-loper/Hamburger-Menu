@@ -1,5 +1,6 @@
   .off__screen__menu {
-    background: brown;
+    background: rgba(0, 0, 0, .85);
+    color: white;
     height: 100vh;
     width: 100%;
     max-width: 450px;
@@ -35,7 +36,7 @@
   .ham__menu span{
     height: 5px;
     width: 100%;
-    background-color: greenyellow;
+    background-color: white;
     border-radius: 25px;
     position: absolute;
     top: 50%;
@@ -65,3 +66,4 @@
     top: 50%;
     transform: translate(-50%, -50%) rotate(-45deg);
   }
+
